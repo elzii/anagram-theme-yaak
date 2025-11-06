@@ -1,0 +1,34 @@
+{
+	"name": "@zizzo/anagram-theme-yaak",
+	"displayName": "ANAGRAM Theme",
+	"version": "0.0.1",
+	"private": true,
+	"description": "ZIZZO's Theme in Yaak",
+	"author": {
+		"name": "Alexander Zizzo",
+		"email": "zizzo@duck.com"
+	},
+	"homepage": "https://github.com/elzii/anagram-theme-yaak",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/elzii/anagram-theme-yaak.git"
+	},
+	"scripts": {
+		"start": "yaakcli dev",
+		"build": "yaakcli build",
+		"publish": "yaakcli publish"
+	},
+	"dependencies": {
+		"@yaakapp/api": "^0.6.6"
+	},
+	"devDependencies": {
+		"@antfu/eslint-config": "^5.2.1",
+		"@total-typescript/tsconfig": "^1.0.4",
+		"@types/bun": "^1.2.21",
+		"@types/node": "^20.14.9",
+		"@yaakapp/cli": "^0.3.1",
+		"eslint": "^9.34.0",
+		"typescript": "^5.5.2",
+		"vitest": "^3.0.5"
+	}
+}
