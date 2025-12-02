@@ -2,7 +2,7 @@ import type {PluginDefinition} from "@yaakapp/api";
 
 // Themes
 import dark from "./assets/anagram-dark.json";
-import light from "./assets/anagram-dark.json";
+import light from "./assets/anagram-light.json";
 
 
 export const plugin: PluginDefinition = {
